@@ -1,0 +1,540 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.first{
+	background-color: #00bfff;
+}
+.first h1{
+	font-size: 20px;
+	color: #fff;
+	float: right;
+}
+.first h2{
+	color: #fff;
+	font-size: 20px;
+}
+
+.dollar h1{
+	margin-left: 20px;
+}
+nav{
+	height: 94px;
+	line-height: 94px;
+	position: relative;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.menu li{
+	display: inline-block;
+	color: black;
+	line-height: 50px;
+	font-size: 20px;
+	margin-left: 10px;
+	padding: 0 0px;
+}
+.menu li a{
+	text-decoration: none;
+	font-weight: 700;
+	color:black;
+}
+.banner{
+	background-image: url(../img/ba2.jpg);
+	height: 500px;
+	background-size: cover; 
+}
+.up_banner{
+	text-align: center;
+	color: #fff;
+	background-color: rgba(102,204,204,.7);
+	position: absolute;
+	width: 100%;
+	margin-top: 405px;
+}
+.block{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.block h1{
+	font-weight: 700;
+}
+.home{
+	width: 200px;
+}
+.work_block{
+	position: relative;
+}
+.image_wrap{
+	position: absolute;	
+	width: 103%;
+	height: 100%;
+	background-color: rgba(102,204,204,.8);
+	opacity:0;
+	padding-left: 10px;
+	padding-right: 10px;  
+}
+.work_block:hover .image_wrap{
+	opacity: 1;
+}
+.work_descr{
+	color:#fff;
+	text-align:center;
+	margin:auto; 
+}
+.work_descr h1{
+	 border-bottom:2px solid white; 
+	 font-size: 30px;
+}
+.work_descr p{
+	font-size: 25px;
+}
+.pricing{
+	text-align: center;
+}
+.pricing h1{
+	font-weight: 700;
+	padding-top: 70px;
+}
+.price{
+	margin-top: 40px;
+}
+.colon{
+	text-align: center;
+	width: 240px;
+	height: 140px;
+	margin-left: 100px;
+	margin-top: 0px;
+	background-color: #00bfff;
+	margin-left: 50px;
+}
+.colon2 h1{
+	font-size: 15px;
+	display: inline-block;
+	color: #fff;
+}
+.colon2 h2{
+	font-size: 35px;
+	margin-top: 0px;
+	color: #fff;
+}
+.colon2 p{
+	font-size: 14px;
+	color: #fff;
+}
+
+.menu_price li{
+	font-size: 18px;
+	border-bottom: 1px solid grey; 
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: -50px;
+}
+.btn_booking{
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border-color: #00bfff;
+}
+.btn_contact{
+	height: 40px;
+	width: 200px;
+	font-size: 25px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #00bfff;
+}
+.contact{
+	margin-top: 350px;
+	text-align: center;
+}
+.contact h1{
+	font-size: 25px;
+}
+.services{
+	background-image: url(../img/se.jpg);
+	height: 1100px;
+}
+.serv_txt{
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+.btn_learn{
+	height: 40px;
+	width: 150px;
+	font-size: 15px;
+	border-radius: 5px;
+	color: #fff;
+	border-color: #00bfff;
+	background-color: black;	
+}
+.wisi{
+	color: #fff;
+	margin-top: 10px;
+	width: 300px;	
+}
+.wisi h2{
+	margin-left: 80px;
+}
+.wisi{
+	margin-left: 50px;
+}
+.messag{
+	width: 550px;
+}
+.messag h1{
+	font-size: 25px;
+}
+.email{
+	height: 45px;
+	width: 500px;	
+}
+.messages{
+	height: 150px;
+	width: 500px;
+	margin-top: 20px;
+}
+.btn_msg{
+	margin-top: 20px;
+	background-color: #00bfff;
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+}
+.soc_btn{
+	border-radius: 20px;
+		
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+.link{
+	left: 0px;
+}
+.footer p{
+	width: 300px;	
+}
+.footer{
+	background-color: #00bfff;
+	margin-top: 20px;
+	color: #fff;
+}
+.footer h4{
+margin-left: 0px;
+}
+.proof{
+	margin-top: 50px;
+}
+.proof h5{
+	margin-left: 0px;
+}
+.navbar-right{
+	margin-right: 0px;
+}
+	
+
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	
+
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border:1px solid #00bfff;
+		background-color: #00bfff;
+		margin-top: 20px;
+	}
+	.bn{
+		border:2px solid black;
+		margin-top: 2px;
+		margin-left: 1px;
+		border-radius: 1px;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+		line-height: 50px;
+		color: black;
+		font-size: 20px;
+	}
+	.menu{
+		background-color: white;
+	}
+.first{
+	background-color: #00bfff;
+}
+.first h1{
+	font-size: 20px;
+	color: #fff;
+	float: right;
+}
+.first h2{
+	color: #fff;
+	font-size: 20px;
+}
+.dollar h1{
+	margin-left: 20px;
+}
+
+.banner{
+	background-image: url(../img/ba2.jpg);
+	height: 500px;
+	background-size: cover; 
+}
+.up_banner{
+	text-align: center;
+	color: #fff;
+	background-color: rgba(102,204,204,.7);
+	position: absolute;
+	width: 100%;
+	margin-top: 405px;
+}
+.block{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.block h1{
+	font-weight: 700;
+}
+.about{
+	margin-left: 60px;
+}
+.work_block{
+	position: relative;
+}
+.img{
+	margin-top: 20px;
+}
+.image_wrap{
+	position: absolute;	
+	width: 75%;
+	height: 100%;
+	background-color: rgba(102,204,204,.8);
+	opacity:0;
+	padding-left: 10px;
+	padding-right: 10px;  
+}
+.work_block:hover .image_wrap{
+	opacity: 1;
+}
+.work_descr{
+	color:#fff;
+	text-align:center;
+	margin:auto; 
+}
+.work_descr h1{
+	 border-bottom:2px solid white; 
+	 font-size: 15px;
+}
+.work_descr p{
+	font-size: 12px;
+}
+.pricing{
+	text-align: center;
+}
+.pricing h1{
+	font-weight: 700;
+	padding-top: 70px;
+}
+.price{
+	margin-top: 40px;
+}
+.colon{
+	text-align: center;
+	width: 240px;
+	height: 140px;
+	background-color: #00bfff;
+	margin-left: 50px;
+}
+.colon2 h1{
+	font-size: 15px;
+	display: inline-block;
+	color: #fff;
+}
+.colon2 h2{
+	font-size: 35px;
+	margin-top: 0px;
+	color: #fff;
+}
+.colon2 p{
+	font-size: 14px;
+	color: #fff;
+}
+
+.menu_price li{
+	font-size: 18px;
+	border-bottom: 1px solid grey; 
+	list-style-type: none;
+	margin-top: 20px;
+	margin-left: -50px;
+}
+.btn_booking{
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border-color: #00bfff;
+}
+.btn_contact{
+	height: 40px;
+	width: 200px;
+	font-size: 25px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #00bfff;
+}
+.contact{
+	margin-top: 350px;
+	text-align: center;
+}
+.contact h1{
+	font-size: 25px;
+	margin-top: -20px;
+}
+.services{
+	background-image: url(../img/se.jpg);
+	height: 1900px;
+}
+.serv_txt{
+	text-align: center;
+	color: #fff;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+.btn_learn{
+	height: 40px;
+	width: 150px;
+	margin-left: 80px;
+	margin-top: 20px;
+	font-size: 15px;
+	border-radius: 5px;
+	color: #fff;
+	border-color: #00bfff;
+	background-color: black;	
+}
+.wisi{
+	color: #fff;
+	margin-top: 10px;
+}
+.wisi h2{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.wisi p{
+	margin-left: 80px;
+		margin-top: 20px;
+}
+.messag{
+	width: 340px;
+}
+.messag h1{
+	font-size: 25px;
+}
+.email{
+	height: 45px;
+	width: 340px;	
+}
+.messages{
+	height: 150px;
+	width: 340px;
+	margin-top: 20px;
+}
+.btn_msg{
+	margin-top: 20px;
+	margin-left: 60px;
+	background-color: #00bfff;
+	width: 200px;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+}
+.Settings{
+	position: absolute;
+	margin-top: 40px;
+}
+.soc_btn{
+	border-radius: 20px;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+.link{
+	left:0px;
+	margin-left: 50px;
+}
+.footer{
+	background-color: #00bfff;
+	margin-top: 20px;
+	color: #fff;
+}
+.footer h4{
+margin-left: 290px;
+}
+.proof{
+	margin-top: 50px;
+}
+.proof h5{
+	margin-left: -10px;
+}
+.proof h4{
+	margin-left: 30px;
+}
+	
+
+
+
+
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+       
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {   
+      
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+
+}
